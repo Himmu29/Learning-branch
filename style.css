@@ -71,3 +71,31 @@ footer {
     background: #35424a;
     color: #fff;
 }
+/* Add these to your existing CSS */
+.hidden {
+    display: none;
+}
+
+#learnBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#learnBtn:hover {
+    background-color: #45a049;
+}
+
+#colorBtn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: #FF5733;
+}

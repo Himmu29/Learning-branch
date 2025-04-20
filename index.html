@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Website</title>
+    <title>My Interactive Website</title>
     <!-- Link to CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link to JavaScript -->
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Welcome to My Interactive Website</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -22,28 +24,32 @@
     <main>
         <section class="hero">
             <h2>Discover Amazing Things</h2>
-            <p>This is a simple website template to get you started!</p>
-            <button>Learn More</button>
+            <p>This is a simple website template with interactive elements!</p>
+            <button id="learnBtn">Learn More</button>
+            <div id="hiddenContent" class="hidden">
+                <p>Now you see the additional content! The button below can change colors.</p>
+                <button id="colorBtn">Click to Change My Color</button>
+            </div>
         </section>
 
         <section class="features">
             <div class="feature-card">
-                <h3>Feature 1</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <h3>Interactive Feature 1</h3>
+                <p>Click the buttons to see magic happen.</p>
             </div>
             <div class="feature-card">
-                <h3>Feature 2</h3>
-                <p>Consectetur adipiscing elit.</p>
+                <h3>Color Changing</h3>
+                <p>The button cycles through different colors.</p>
             </div>
             <div class="feature-card">
-                <h3>Feature 3</h3>
-                <p>Sed do eiusmod tempor.</p>
+                <h3>Dynamic Content</h3>
+                <p>Content appears when you click "Learn More".</p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Basic Website. All rights reserved.</p>
+        <p>&copy; 2024 My Interactive Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
